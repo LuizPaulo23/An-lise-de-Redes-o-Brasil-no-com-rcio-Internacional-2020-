@@ -206,7 +206,6 @@ kable(metricas, caption = "Métricas de Centralidade")
 # Reduzindo a rede 
 
 lim_inf <- quantile(new_base$n, prob = 0.99)
-# filtrar os 5% pares de colaboracoes mais comuns
 rede_reduzida <- new_base %>% filter(n > lim_inf)
 
 quantile(new_base$n, seq(0, 1, 0.01))
