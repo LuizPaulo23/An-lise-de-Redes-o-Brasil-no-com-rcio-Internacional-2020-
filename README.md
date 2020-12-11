@@ -248,7 +248,7 @@ plot(grafo_sub,
 
 lim_inf <- quantile(new_base$n, prob = 0.98)
 lim_inf <- quantile(new_base$n, prob = 0.97)
-# filtrar os 5% pares de colaboracoes mais comuns
+
 rede98 <- new_base %>% filter(n > lim_inf)
 rede97 <- new_base %>% filter(n > lim_inf)
 
