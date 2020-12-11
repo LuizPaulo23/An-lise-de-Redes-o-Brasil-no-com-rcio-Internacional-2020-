@@ -1,0 +1,2 @@
+# An-lise-de-Redes-o-Brasil-no-com-rcio-Internacional-2020-
+Busco aplicar análise de redes nos dados referente ao comércio internacional brasileiro; para ser mais preciso, busco mapear as redes estabelecidas entre os Estados brasileiros exportadores com os países de destino (importadores). Nada além, de observar a relação dos vértices com o conjunto de ligações existente entre os vértices (arestas).
